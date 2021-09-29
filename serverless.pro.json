@@ -1,0 +1,17 @@
+[
+    {
+        "id": "api-books-_author_-get",
+        "path": "books/_author_/get",
+        "extra_modules": [
+            "domain"
+        ]
+    },
+    {
+        "id": "api-books-post",
+        "path": "books/post",
+        "extra_modules": [
+            "domain"
+        ]
+    }
+]
+
