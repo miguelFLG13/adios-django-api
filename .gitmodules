@@ -1,0 +1,6 @@
+[submodule "books/post/adios-django-domain"]
+	path = books/post/domain
+	url = https://github.com/miguelFLG13/adios-django-domain
+[submodule "books/_author_/get/domain"]
+	path = books/_author_/get/domain
+	url = https://github.com/miguelFLG13/adios-django-domain
