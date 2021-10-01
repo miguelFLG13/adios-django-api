@@ -9,11 +9,12 @@ class TestBookCreator(TestCase):
 
     def test_create_book_ok(self):
         """
-        
+        Test book creation
         """
-        book_repository = 
-        book_creator = BookCreator(book_repository)
         book = baker.make(Book)
+        book_repository = Mock()
+        book_repository.create_book.return_value = book
+        book_creator = BookCreator(book_repository)
         new_book = book_creator.create(book)
 
         self.assertTrue(is_instance(new_book, Book))
