@@ -1,0 +1,4 @@
+use_cases.create_book_use_case.CreateBookUseCase:
+    fqn: use_cases.create_book_use_case.CreateBookUseCase
+    args:
+        - '@use_cases.services.book_creator.BookCreator'

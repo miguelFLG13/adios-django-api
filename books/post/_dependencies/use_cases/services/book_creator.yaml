@@ -1,0 +1,4 @@
+use_cases.services.book_creator.BookCreator:
+    fqn: use_cases.services.book_creator.BookCreator
+    args:
+        - '@domain.repositories.pg_book_repository.PgBookRepository'
