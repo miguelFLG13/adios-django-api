@@ -1,0 +1,4 @@
+use_cases.services.books_getter.BooksGetter:
+    fqn: use_cases.services.books_getter.BooksGetter
+    args:
+        - '@domain.repositories.pg_book_repository.PgBookRepository'

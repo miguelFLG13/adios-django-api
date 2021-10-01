@@ -1,0 +1,4 @@
+use_cases.get_books_use_case.GetBooksUseCase:
+    fqn: use_cases.get_books_use_case.GetBooksUseCase
+    args:
+        - '@use_cases.services.books_getter.BooksGetter'
